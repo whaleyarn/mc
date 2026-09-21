@@ -8,7 +8,7 @@
       "versioning": "regex:^RELEASE\\.(?<major>\\d{4})-(?<minor>\\d{2})-(?<patch>\\d{2})T[0-9-]+Z$"
     }
   ],
-  "extends": [
-    ":automergeMinor"
-  ]
+  "automerge": true,
+  "platformAutomerge": false,
+  "ignoreTests": false
 }
